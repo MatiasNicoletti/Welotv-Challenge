@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import './app/presentation/styles/base.scss';
+@import './app/presentation/styles/ui-components/containers.scss';
+@import './app/presentation/styles/ui-components/grid.scss';
+@import './app/presentation/styles/ui-components/buttons.scss';
+@import './app/presentation/styles/ui-components/navbar.scss';
+@import './app/presentation/styles/ui-components/lists.scss';
+@import './app/presentation/styles/ui-components/tables.scss';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

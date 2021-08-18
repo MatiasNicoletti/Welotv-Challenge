@@ -1,0 +1,18 @@
+.list{
+    list-style: none;
+
+    &-item{
+        &-link{
+            margin: 0 1rem;
+        }
+    }
+}
+
+.column-list{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding: 0 2rem;
+}
+

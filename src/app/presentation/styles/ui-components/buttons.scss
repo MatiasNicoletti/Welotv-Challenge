@@ -1,0 +1,16 @@
+.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.link-btn{
+    @extend .btn;
+    font-weight: 500;
+
+    &:hover{
+        font-weight: bolder;
+    }
+}

@@ -1,0 +1,7 @@
+<div class="gallery-container">
+    <div class="grid">
+        <div class="grid-item" *ngFor="let person of peopleList">
+            <img class="grid-item-img" src={{person.picture.large}} alt="picture" (click)="onModalOpen(person.id.value)">
+        </div>
+    </div>
+</div>

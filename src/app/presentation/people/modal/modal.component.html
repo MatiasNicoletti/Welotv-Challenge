@@ -1,0 +1,16 @@
+<div class="modal-header">
+    <mat-dialog-content class="mat-typography">
+    <h2 mat-dialog-title>{{person.name.first + ' ' + person.name.last}}</h2>
+    <p>{{person.location.country}}, {{person.location.state}}, {{person.location.city}}</p>
+    <h3>{{person.email}}</h3>
+    <h2>Information</h2>
+    <ul class="list">
+        <li>Gender: {{person.gender}}</li>
+        <li>Age: {{person.dob.age}}</li>
+        <li>Date of Birth: {{person.dob.date | date}}</li>
+        <li>Address: {{person.location.street.name + ' ' + person.location.street.number}}, Postal Code: {{person.location.postcode}}</li>
+        <li>Phone: {{person.phone}}</li>
+    </ul>
+</mat-dialog-content>
+</div>
+
